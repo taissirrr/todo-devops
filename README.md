@@ -13,4 +13,14 @@ npm start
 
 # Build for production
 npm run build
+
+#plugins
+Docker 
+Pipeline 
+Credentials 
+Kubernetes 
+OWASP 
 ```
+
+
+

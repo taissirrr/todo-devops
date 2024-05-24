@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 import Header from './components/layout/Header';
+import Footer from './components/layout/Footer'; 
 import Todos from './components/Todos';
 import AddTodo from './components/AddTodo';
 import About from './components/pages/About';
@@ -76,6 +77,7 @@ class App extends Component {
             />
             <Route path="/about" component={About} />
           </div>
+          <Footer />
         </div>
       </Router>
     );
